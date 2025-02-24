@@ -1,0 +1,72 @@
+body{
+    font-family:Arial, sams-serif;
+    margin: 0;
+    padding:0;
+    background-color: White;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+
+}
+header{
+    text-align: center;
+    background-color: black;
+    color:aliceblue;
+    padding: 10px;
+    margin-top: 20px;
+    font-weight: bold;
+
+}
+img{border-radius: 90px;
+}
+
+form{
+    background: #b68d8d;
+    padding: 15px;
+    border-radius: 15px;
+}
+ input[type="text"],input[type="email"]{
+    width: 75%;
+    padding: 8px;
+    margin: 5px 0;
+    border: 1px solid #0c0b0b;
+    border-radius: 12px;
+ }
+ input[type="submit"]{
+    background-color:#aa0f0f
+    color(green);
+    padding: 7px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 25%;  
+ }
+ label{
+    color: rgb(24, 202, 24);
+ }    
+ #delBtn{
+    background-color: rgb(183, 10, 10);
+ }
+ #sendBtn{
+    background-color: green;
+ }
+
+
+
+ 
+ 
